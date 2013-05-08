@@ -212,6 +212,10 @@ function streamCreate(streamA) {
   ops.streamsActive[i].title = streamA.title;
   streamList(streamA.name);
 }
+//user fix
+function userUpdate(name) {
+  $('.colortoBG.modal.narrow').textContent(name);
+}
 //page inits
 $('document').ready(function(){
   $('#streams').sortable();
@@ -220,4 +224,5 @@ $('document').ready(function(){
   ticktock();
   //artIt();
   setTimeout(loadStreams(), 500);
+  //gon.watch('username', {interval: 1000}, userUpdate);
 });
