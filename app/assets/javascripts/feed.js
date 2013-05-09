@@ -21,7 +21,7 @@ function content(inc) {
 function paginate(tar){
   setTimeout(function() {
     $("#"+tar).pajinate({
-      items_per_page : 5,
+      items_per_page : 4,
       item_container_id : '.content',
       nav_panel_id : '.page_navigation'
     });
