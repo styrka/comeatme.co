@@ -13,7 +13,7 @@ class SessionsController < ApplicationController
       #redirect_back_or user
       redirect_to success_url
     else
-      flash.now[:error] = 'Invalid email/password combination'
+      flash.now[:error] = 'Invalid email/password'
       render 'new'
     end
   end

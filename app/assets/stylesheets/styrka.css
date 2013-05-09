@@ -46,6 +46,16 @@ table, tr, td {
   border-radius: 4px;
 }
 
+.alert {
+  text-align: center;
+  border: 2px solid orange;
+  font-family: monospace;
+}
+
+.alert-error {
+  color: red;
+}
+
 .cell i {
   display: block;
   margin: 0 auto
